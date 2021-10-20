@@ -1,0 +1,39 @@
+
+
+.container{
+
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding: 10px;
+    background: indigo;
+    
+}
+.header{
+    height: 150px;
+    flex-grow: 1;
+    border: 2px solid black;
+    column-gap: 10px;
+    background: darkgray;
+    justify-content: center;
+}
+.main{
+    display: flex;
+    height: 300px;
+    column-gap: 10px;
+}
+.main_left{
+    border: 1px solid black;
+    flex-grow: 2;
+    background: lightslategray;
+    align-items: center;
+    text-align: center;
+
+}
+.main_right{
+    border: 1px solid black;
+    flex-grow: 1;
+    background: darkslategrey;
+    text-align: center;
+}
